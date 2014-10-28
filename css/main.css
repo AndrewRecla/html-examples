@@ -12,7 +12,7 @@ body {
 }
 
 #wrapper {
-	max-width: 940px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
@@ -36,12 +36,12 @@ HEADING
 	margin: 0;
 }
 
-h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
+h1, h2 {
+  font-family: 'Black Ops One', sans-serif;
+  margin: 15px 0 0 0;
   font-size: 3em;
   font-weight: normal;
-  line-height: 0.8em;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -56,8 +56,8 @@ NAVIGATION
 
 nav {
   text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+  padding: 10px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 /**********************************
@@ -86,7 +86,6 @@ PAGE: PORTFOLIO
   float: left;
   width: 40%;
   margin: 2.5%;
-  background-color: #f5f5f5;
   color: #bdc3c7;
 }
 
